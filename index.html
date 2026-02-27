@@ -22,40 +22,30 @@
     </header><br><br>
   
     
-    
     <main class="container" id="Main">
-        <h1>Want a gaming laptop?</h1>
+        <h1>Want a gaming laptop? 🎮</h1>
         <p>Enter your budget to find the right one!</p>
         <input type="number" id="budget" class="form-control w-100" placeholder="Enter budget here (Ex: 50000)">
         
         
         <div class="discountButtons">
-            <button class="btn btn-primary mt-3" onclick="">Brand & Discounts</button>
-            <button class="btn btn-primary mt-3" onclick="">Store locations</button>
+            <button class="btn btn-primary mt-3" onclick="buttonDiscount()">Brand & Discounts</button>
+            <div id="disc-box"></div>
+            <button class="btn btn-primary mt-3" onclick="storelocations()">Store locations</button>
+            <div id="loc-box"></div>            
             <button class="btn btn-primary mt-3" onclick="window.location.reload()">Refresh</button>
         </div>
-            <div class="container bg-secondary rounded mt-5">
-                <h4 class="text-white">Recommended Brands:</h4>
 
-                <button class="btn btn-primary mt-3">Acer</button>
-                <button class="btn btn-primary mt-3">Lenovo</button>
-                <button class="btn btn-primary mt-3">Asus</button>
-
-                <p class="text-muted">Elligible discount: <span class="bg-danger"></span></p>
-
-            </div>
-            
-     </main>
+     </main><br><br><br><br><br><br><br>
 
     <footer class="bg-dark text-white py-3 fixed-bottom text-center">
         <p>&copy;2026 Technolutions. All rights reserved</p>
     </footer>
 
-    <script src="main.js">
+    <script src="mai.js">
 
     </script>
-
-
     
 </body>
+
 </html>
